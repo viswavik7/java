@@ -5,7 +5,7 @@
     <groupId>org.springframework</groupId>
     <artifactId>helloworld</artifactId>
     <packaging>jar</packaging>
-    <version>0.2.0</version>
+    <version>0.1</version>
 
     <!-- tag::joda[] -->
      <properties>
@@ -32,9 +32,6 @@
                 <executions>
                     <execution>
                         <phase>package</phase>
-                        <goals>
-                            <goal>shade</goal>
-                        </goals>
                         <configuration>
                             <transformers>
                                 <transformer
